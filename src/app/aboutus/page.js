@@ -17,6 +17,26 @@ import ModalVideo from "react-modal-video";
 import "../../../node_modules/react-modal-video/css/modal-video.css";
 
 export default function AboutUs() {
+  const experiences = [
+    {
+      title: "Lecturer (Probationary)",
+      dates: "16th August 2023 - Present",
+      department: "Department of Civil Engineering, Faculty of Engineering",
+      university: "General Sir John Kotelawala Defence University",
+    },
+    {
+      title: "Temporary Demonstrator",
+      dates: "28th January 2022 - 15th August 2023",
+      department: "Department of Civil Engineering, Faculty of Engineering",
+      university: "University of Sri Jayewardenepura",
+    },
+    {
+      title: "Civil Engineer (Trainee)",
+      dates: "July 2021 - 12th January 2022",
+      company: "Sanken Constructions (Pvt.) Ltd.",
+    },
+  ];
+
   const [isOpen, setOpen] = useState(false);
   return (
     <>
@@ -239,15 +259,23 @@ export default function AboutUs() {
                 </h3>
                 <div className="lg:col-span-7">
                   <div className="bg-gray-50 dark:bg-slate-800 shadow dark:shadow-gray-800 p-6 rounded-xl mx-16 text-left">
-                    <ul
-                      className="w-full text-left px-6"
-                      style={{ textAlign: "left" }}
-                    >
-                      <li className="mt-2 text-left">
-                        Student Member, Institution of Civil Engineers (UK) -
-                        Membership Number 91784892 (2019-2021)
-                      </li>
-                    </ul>
+                    <div className="max-w-4xl mx-auto">
+                      <div className="space-y-6">
+                        {experiences.map((experience, index) => (
+                          <div
+                            key={index}
+                            className="border-l-4 border-blue-500 pl-4"
+                          >
+                            <h2 className="font-semibold">
+                              {experience.title}
+                            </h2>
+                            <p className="text-gray-500">{experience.dates}</p>
+                            <p>{experience.department}</p>
+                            <p>{experience.university || experience.company}</p>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
