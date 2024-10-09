@@ -132,7 +132,7 @@ export default function AboutUs() {
             </div>
           </div>
         </div>
-        <section className="relative md:py-24 py-16">
+        <section className="relative md:py-24">
           <div className="container relative">
             <div className="">
               <div className="grid grid-cols-1 pb-6 text-center lg:mt-24 mt-16">
@@ -156,7 +156,7 @@ export default function AboutUs() {
             </div>
           </div>
         </section>
-        <section className="relative md:py-24 py-16">
+        <section className="relative md:py-24">
           <div className="container relative">
             <div className="">
               <div className="grid grid-cols-1 pb-6 text-center lg:mt-24 mt-16">
@@ -182,7 +182,7 @@ export default function AboutUs() {
             </div>
           </div>
         </section>
-        <section className="relative md:py-24 py-16">
+        <section className="relative md:py-24">
           <div className="container relative">
             <div className="">
               <div className="grid grid-cols-1 pb-6 text-center lg:mt-24 mt-16">
@@ -206,7 +206,7 @@ export default function AboutUs() {
             </div>
           </div>
         </section>
-        <section className="relative md:py-24 py-16">
+        <section className="relative md:py-24">
           <div className="container relative">
             <div className="">
               <div className="grid grid-cols-1 pb-6 text-center lg:mt-24 mt-16">
@@ -230,7 +230,7 @@ export default function AboutUs() {
             </div>
           </div>
         </section>
-        <section className="relative md:py-24 py-16">
+        <section className="relative md:py-24">
           <div className="container relative">
             <div className="">
               <div className="grid grid-cols-1 pb-6 text-center lg:mt-24 mt-16">
@@ -254,7 +254,7 @@ export default function AboutUs() {
             </div>
           </div>
         </section>
-        <section className="relative md:py-24 py-16">
+        <section className="relative md:py-24">
           <div className="container relative">
             <div className="">
               <div className="grid grid-cols-1 pb-6 text-center lg:mt-24 mt-16">
