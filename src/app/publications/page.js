@@ -67,7 +67,7 @@ export default function Services() {
               <h3 className="mb-4 md:text-2xl text-xl font-medium">
                 Publications
               </h3>
-              <div className="lg:col-span-7">
+              <div className="lg:col-span-7" style={{textAlign:"left"}}>
                 <div className="bg-gray-50 dark:bg-slate-800 shadow dark:shadow-gray-800 p-6 rounded-xl mx-16 text-left">
                   <div className="max-w-4xl mx-auto">
                     <div className="space-y-6">
