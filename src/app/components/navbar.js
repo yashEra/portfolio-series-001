@@ -129,7 +129,7 @@ export default function Navbar() {
               alt=""
             />
             <Image
-              src="/images/logo-white.png"
+              src="/images/logo-light.png"
               width={109}
               height={20}
               className="h-5 hidden dark:inline-block"

@@ -32,15 +32,15 @@ export default function Home() {
                     <TypeAnimation
                             sequence={[
                                 // Same substring at the start will only be typed out once, initially
-                                'Calvin Carlo',
+                                'Damsara Rasandun',
                                 1000, // wait 1s before replacing "Mice" with "Hamsters"
-                                'Freelancer',
+                                'Civil Engineer',
                                 1000,
-                                'Website Designer',
+                                'Lecture',
                                 1000,
-                                'Web Developers',
+                                'Content Writer',
                                 1000,
-                                'UI/UX Designer',
+                                'Mucision',
                                 1000
                             ]}
                             wrapper="span"
@@ -50,9 +50,9 @@ export default function Home() {
                             />
                     </h5>
                 
-                    <h5 className="md:text-5xl md:leading-normal text-3xl leading-normal font-bold mt-3">A Full Service <br/> Digital Agency</h5>
+                    <h5 className="md:text-5xl md:leading-normal text-3xl leading-normal font-bold mt-3">A Full Service <br/> Civil Engineering Firm</h5>
 
-                    <p className="text-slate-400 dark:text-white/60 text-[17px] max-w-xl mt-4">Muvico is a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success.</p>
+                    <p className="text-slate-400 dark:text-white/60 text-[17px] max-w-xl mt-4">Test is a Civil Engineering Consultancy & Project Management firm that provides innovative engineering solutions and services, focusing on client success.</p>
 
                     <div className="relative mt-6">
                         <Link href="/aboutus" className="py-2 px-5 inline-flex items-center font-medium tracking-wide border align-middle duration-500 text-[15px] text-center bg-orange-500 hover:bg-orange-600 border-orange-500 hover:border-orange-600 text-white rounded-xl">Explore Work <i className="mdi mdi-arrow-right ms-2"></i></Link>
@@ -69,8 +69,8 @@ export default function Home() {
                         </div>
 
                         <div className="absolute md:top-20 top-32 md:-end-10 -end-2 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 m-3 w-44 text-center">
-                            <h6 className="font-semibold">Web Designer</h6>
-                            <h6 className="text-sm text-slate-400 mt-1">7+ Years Experience</h6>
+                            <h6 className="font-semibold">Civil Engineer</h6>
+                            <h6 className="text-sm text-slate-400 mt-1">3+ Years Experience</h6>
                         </div>
                     </div>
                 </div>
