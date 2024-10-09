@@ -132,17 +132,17 @@ export default function AboutUs() {
             </div>
           </div>
         </div>
-        <section className="relative md:py-24">
+        <section className="relative pt-16">
           <div className="container relative">
             <div className="">
-              <div className="grid grid-cols-1 pb-6 text-center lg:mt-24 mt-16">
+              <div className="grid grid-cols-1 text-left">
                 <h3 className="mb-4 md:text-2xl text-xl font-medium">
                   Qualifications
                 </h3>
                 <div className="lg:col-span-7">
                   <div className="bg-gray-50 dark:bg-slate-800 shadow dark:shadow-gray-800 p-6 rounded-xl mx-16 text-left">
                     <ul
-                      className="w-full text-left px-16"
+                      className="w-full text-left px-16 px-6"
                       style={{ textAlign: "left" }}
                     >
                       <li className="mt-2 text-left">
@@ -156,18 +156,18 @@ export default function AboutUs() {
             </div>
           </div>
         </section>
-        <section className="relative md:py-24">
+        <section className="relative pt-16">
           <div className="container relative">
             <div className="">
-              <div className="grid grid-cols-1 pb-6 text-center lg:mt-24 mt-16">
+              <div className="grid grid-cols-1 text-left">
                 <h3 className="mb-4 md:text-2xl text-xl font-medium">
                   Research Interests
                 </h3>
                 <div className="lg:col-span-7">
                   <div className="bg-gray-50 dark:bg-slate-800 shadow dark:shadow-gray-800 p-6 rounded-xl mx-16 text-left">
                     <ul
-                      className="w-full text-left px-16"
-                      style={{ textAlign: "left" }}
+                      className="w-full text-left px-16 px-6"
+                      style={{ textAlign: "left"}}
                     >
                       <li className="mt-2 text-left">
                         Sustainable Design and Construction
@@ -182,17 +182,17 @@ export default function AboutUs() {
             </div>
           </div>
         </section>
-        <section className="relative md:py-24">
+        <section className="relative pt-16">
           <div className="container relative">
             <div className="">
-              <div className="grid grid-cols-1 pb-6 text-center lg:mt-24 mt-16">
+              <div className="grid grid-cols-1 text-left">
                 <h3 className="mb-4 md:text-2xl text-xl font-medium">
                   Memberships
                 </h3>
                 <div className="lg:col-span-7">
                   <div className="bg-gray-50 dark:bg-slate-800 shadow dark:shadow-gray-800 p-6 rounded-xl mx-16 text-left">
                     <ul
-                      className="w-full text-left px-16"
+                      className="w-full text-left px-6"
                       style={{ textAlign: "left" }}
                     >
                       <li className="mt-2 text-left">
@@ -206,17 +206,17 @@ export default function AboutUs() {
             </div>
           </div>
         </section>
-        <section className="relative md:py-24">
+        <section className="relative pt-16">
           <div className="container relative">
             <div className="">
-              <div className="grid grid-cols-1 pb-6 text-center lg:mt-24 mt-16">
+              <div className="grid grid-cols-1 text-left">
                 <h3 className="mb-4 md:text-2xl text-xl font-medium">
                   Specialized fields
                 </h3>
                 <div className="lg:col-span-7">
                   <div className="bg-gray-50 dark:bg-slate-800 shadow dark:shadow-gray-800 p-6 rounded-xl mx-16 text-left">
                     <ul
-                      className="w-full text-left px-16"
+                      className="w-full text-left px-6"
                       style={{ textAlign: "left" }}
                     >
                       <li className="mt-2 text-left">
@@ -230,17 +230,17 @@ export default function AboutUs() {
             </div>
           </div>
         </section>
-        <section className="relative md:py-24">
+        <section className="relative pt-16">
           <div className="container relative">
             <div className="">
-              <div className="grid grid-cols-1 pb-6 text-center lg:mt-24 mt-16">
+              <div className="grid grid-cols-1 pb-6 text-cente">
                 <h3 className="mb-4 md:text-2xl text-xl font-medium">
                   Research grants
                 </h3>
                 <div className="lg:col-span-7">
                   <div className="bg-gray-50 dark:bg-slate-800 shadow dark:shadow-gray-800 p-6 rounded-xl mx-16 text-left">
                     <ul
-                      className="w-full text-left px-16"
+                      className="w-full text-left px-6"
                       style={{ textAlign: "left" }}
                     >
                       <li className="mt-2 text-left">
@@ -254,10 +254,10 @@ export default function AboutUs() {
             </div>
           </div>
         </section>
-        <section className="relative md:py-24">
+        <section className="relative pt-6">
           <div className="container relative">
             <div className="">
-              <div className="grid grid-cols-1 pb-6 text-center lg:mt-24 mt-16">
+              <div className="grid grid-cols-1 pb-6 text-left">
                 <h3 className="mb-4 md:text-2xl text-xl font-medium">Awards</h3>
                 <div className="lg:col-span-7">
                   <div className="bg-gray-50 dark:bg-slate-800 shadow dark:shadow-gray-800 p-6 rounded-xl mx-16 text-left">
