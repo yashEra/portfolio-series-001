@@ -14,18 +14,18 @@ export default function About(){
                         <div className="relative">
                             <div className="relative flex justify-end">
                                 <Image  src="/images/about.jpg" width={0} height={0} sizes="100vw" style={{width:"400px", height:"auto"}} className="lg:w-[400px] w-[280px] rounded-xl shadow dark:shadow-gray-700" alt=""/>
-                                <div className="absolute top-0 translate-y-2/4 start-0 text-center">
+                                {/* <div className="absolute top-0 translate-y-2/4 start-0 text-center">
                                     <Link href="#!" onClick={() => setOpen(true)} className="lightbox h-20 w-20 rounded-full shadow-lg shadow-slate-100 dark:shadow-slate-800 inline-flex items-center justify-center bg-white dark:bg-slate-900 text-orange-600">
                                         <i className="mdi mdi-play inline-flex items-center justify-center text-2xl"></i>
                                     </Link>
-                                </div>
-                                <ModalVideo
+                                </div> */}
+                                {/* <ModalVideo
                                     channel="youtube"
                                     youtube={{ mute: 0, autoplay: 0 }}
                                     isOpen={isOpen}
                                     videoId="S_CGed6E610"
                                     onClose={() => setOpen(false)} 
-                                />
+                                /> */}
                             </div>
                             <div className="absolute md:-start-5 start-0 -bottom-16">
                                 <Image src="/images/about2.jpg" width={0} height={0} sizes="100vw" style={{width:"280px", height:"auto"}} className="lg:w-[280px] w-[200px] border-8 border-white dark:border-slate-900 rounded-xl" alt=""/>
