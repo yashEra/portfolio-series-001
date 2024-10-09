@@ -196,8 +196,8 @@ export default function Navbar() {
               </li>
 
               <li>
-                <Link href="/services" className="sub-menu-item">
-                  Publication
+                <Link href="/publications" className="sub-menu-item">
+                  Publications
                 </Link>
               </li>
 

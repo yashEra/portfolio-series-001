@@ -20,15 +20,15 @@ export default function Services(){
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/80 to-black"></div>
         <div className="container relative">
             <div className="grid grid-cols-1 pb-8 text-center mt-10">
-                <h3 className="text-3xl leading-normal font-medium text-white">Our Services</h3>
+                <h3 className="text-3xl leading-normal font-medium text-white">Publications</h3>
             </div>
         </div>
         
         <div className="absolute text-center z-10 bottom-5 start-0 end-0 mx-3">
             <ul className="tracking-[0.5px] mb-0 inline-block">
-                <li className="inline-block capitalize text-[14px] duration-500 ease-in-out text-white/50 hover:text-white"><Link href="/">Muvico</Link></li>
+                <li className="inline-block capitalize text-[14px] duration-500 ease-in-out text-white/50 hover:text-white"><Link href="/">Home</Link></li>
                 <li className="inline-block text-[18px] text-white/50 mx-0.5 ltr:rotate-0 rtl:rotate-180"><i className="mdi mdi-chevron-right align-middle"></i></li>
-                <li className="inline-block capitalize text-[14px] duration-500 ease-in-out text-white" aria-current="page">Services</li>
+                <li className="inline-block capitalize text-[14px] duration-500 ease-in-out text-white" aria-current="page">publications</li>
             </ul>
         </div>
     </section>
