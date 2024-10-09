@@ -167,7 +167,7 @@ export default function AboutUs() {
                   <div className="bg-gray-50 dark:bg-slate-800 shadow dark:shadow-gray-800 p-6 rounded-xl mx-16 text-left">
                     <ul
                       className="w-full text-left px-16 px-6"
-                      style={{ textAlign: "left"}}
+                      style={{ textAlign: "left" }}
                     >
                       <li className="mt-2 text-left">
                         Sustainable Design and Construction
@@ -235,7 +235,7 @@ export default function AboutUs() {
             <div className="">
               <div className="grid grid-cols-1 pb-6 text-cente">
                 <h3 className="mb-4 md:text-2xl text-xl font-medium">
-                  Research grants
+                  Working Experience
                 </h3>
                 <div className="lg:col-span-7">
                   <div className="bg-gray-50 dark:bg-slate-800 shadow dark:shadow-gray-800 p-6 rounded-xl mx-16 text-left">
