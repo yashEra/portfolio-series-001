@@ -31,7 +31,7 @@ export default function AboutUs(){
             
             <div className="absolute text-center z-10 bottom-5 start-0 end-0 mx-3">
                 <ul className="tracking-[0.5px] mb-0 inline-block">
-                   <li className="inline-block capitalize text-[14px] duration-500 ease-in-out text-white/50 hover:text-white"><Link href="/">Muvico</Link></li>
+                   <li className="inline-block capitalize text-[14px] duration-500 ease-in-out text-white/50 hover:text-white"><Link href="/">Home</Link></li>
                    <li className="inline-block text-[18px] text-white/50 mx-0.5 ltr:rotate-0 rtl:rotate-180"><i className="mdi mdi-chevron-right align-middle"></i></li>
                     <li className="inline-block capitalize text-[14px] duration-500 ease-in-out text-white" aria-current="page">About Us</li>
                 </ul>
@@ -55,21 +55,24 @@ export default function AboutUs(){
                                     <i className="mdi mdi-play inline-flex items-center justify-center text-2xl"></i>
                                 </Link>
                             </div>
-                            <ModalVideo
+                            {/* <ModalVideo
                                     channel="youtube"
                                     youtube={{ mute: 0, autoplay: 0 }}
                                     isOpen={isOpen}
                                     videoId="S_CGed6E610"
                                     onClose={() => setOpen(false)} 
-                                />
+                                /> */}
                         </div>
                     </div>
 
                     <div className="lg:col-span-7">
                         <div className="lg:ms-7">
-                            <h3 className="mb-4 md:text-2xl text-xl font-medium">About Us: Muvico</h3>
+                            <h3 className="mb-4 md:text-2xl text-xl font-medium">Damsara Rasandun</h3>
 
-                            <p className="text-slate-400 dark:text-white/60 max-w-2xl mx-auto">Start working with Muvico that can provide everything you need to generate awareness, drive traffic, connect. Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with real content. This is required when, for example, the final text is not yet available. Dummy texts have been in use by typesetters since the 16th century.</p>
+                            <p className="text-slate-400 dark:text-white/60 max-w-2xl mx-auto">I am a dedicated civil engineer with a strong commitment to advancing the field through research, education, and innovation in academia. With a solid academic background and practical experience, I bring a unique perspective to my work. My research interests focus on Green buildings and sustainable built environment, construction management and Environmental/Marine pollution.
+As an educator, I strive to inspire and mentor students, fostering critical thinking and problem-solving skills. Collaboration and interdisciplinary work are essential to me, as I seek to bridge the gap between theory and practice. I actively engage in professional development and networking opportunities. Overall, I am driven to make a meaningful impact in academia by contributing to cutting-edge research, innovative teaching, and the development of future civil engineers.
+
+I'm a passionate musician and have professional experience and education as a Pianist, Bass guitarist, and a Rhythm guitarist. I have performed in front of live audiences and have the necessary knowledge to handle a band / orchestra or to work with live sound engineering and studio recordings.</p>
                         
                             <div className="relative mt-8">
                                 <Link href="/aboutus" className="py-2 px-5 inline-flex items-center font-medium tracking-wide border align-middle duration-500 text-[15px] text-center bg-orange-500 hover:bg-orange-600 border-orange-500 hover:border-orange-600 text-white rounded-xl">Read More <i className="mdi mdi-arrow-right ms-2"></i></Link>
