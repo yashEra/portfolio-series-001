@@ -49,10 +49,7 @@ export default function Features({ title }) {
 
             <p className="text-slate-400 dark:text-white/60 max-w-xl mx-auto">
               I specialize in delivering innovative civil engineering solutions
-              that span from conceptual design to project completion. Our
-              expertise covers infrastructure development, urban planning, and
-              sustainable construction, ensuring each project meets the highest
-              standards of quality and safety.
+              that span from conceptual design to project completion.
             </p>
           </div>
         )}
