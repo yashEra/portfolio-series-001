@@ -430,7 +430,7 @@ export default function Navbar() {
               </li> */}
 
               <li className="has-submenu parent-menu-item">
-                <Link href="#">Research</Link>
+                <Link href="#">Projects</Link>
                 <span></span>
               </li>
 

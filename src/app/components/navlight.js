@@ -195,7 +195,7 @@ export default function Navlight() {
           >
             <ul className="navigation-menu justify-end nav-light">
               <li className="has-submenu parent-menu-item">
-                <Link href="#">Home</Link>
+                <Link href="/">Home</Link>
               </li>
 
               <li>
@@ -211,7 +211,7 @@ export default function Navlight() {
               </li>
 
               <li className="has-submenu parent-parent-menu-item">
-                <Link href="#">Research</Link>
+                <Link href="#">Projects</Link>
                 <span></span>
               </li>
 
