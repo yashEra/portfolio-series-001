@@ -55,7 +55,7 @@ export default function About() {
                 About Me
               </h6>
               <h3 className="mb-4 md:text-2xl text-xl font-medium">
-                Better Design <br /> Better Experience
+                Stronger Structures <br /> Sustainable Solutions
               </h3>
 
               <p className="text-slate-400 dark:text-white/60 max-w-xl">
