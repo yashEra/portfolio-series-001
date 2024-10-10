@@ -49,7 +49,7 @@ export default function Footer() {
             <ul className="lg:col-span-4 list-none md:text-end text-center mt-6 md:mt-0 space-x-1">
               <li className="inline">
                 <Link
-                  href="http://linkedin.com/company/"
+                  href="https://www.linkedin.com/in/damsara-anthony/"
                   target="_blank"
                   className="h-8 w-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-[15px] text-center border border-gray-800 dark:border-slate-800 rounded-xl hover:border-orange-500 dark:hover:border-orange-500 hover:bg-orange-500 dark:hover:bg-orange-500 text-slate-300 hover:text-white"
                 >
