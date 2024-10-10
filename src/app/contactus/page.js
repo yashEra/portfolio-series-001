@@ -145,7 +145,7 @@ export default function ContactUs() {
                     data-type="iframe"
                     className="video-play-icon read-more lightbox text-orange-500 hover:text-orange-500 after:bg-orange-500 transition duration-500"
                   >
-                    View on Google map
+                    Galle, Sri Lanka
                   </Link>
                 </div>
               </div>
