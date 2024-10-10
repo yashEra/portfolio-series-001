@@ -1,7 +1,7 @@
 {
-  "name": "muvico",
+  "name": "damsara",
   "version": "1.0.0",
-  "description": "Muvico - Next Js Personal & Minimal Portfolio Template",
+  "description": "Damsara Randun - Civil Enginner",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -10,7 +10,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "latest",
+    "next": "^14.2.15",
     "react": "latest",
     "react-18-image-lightbox": "^5.1.4",
     "react-countup": "^6.4.2",
