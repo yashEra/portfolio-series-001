@@ -46,7 +46,7 @@ export default function Features({ title }) {
         ) : (
           <div className="grid grid-cols-1 pb-6 text-center">
             <h3 className="mb-6 md:text-2xl text-xl font-medium">
-              What we do?
+              What I do?
             </h3>
 
             <p className="text-slate-400 dark:text-white/60 max-w-xl mx-auto">
