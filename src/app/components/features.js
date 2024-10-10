@@ -5,38 +5,39 @@ import Image from "next/image";
 import {FiHexagon} from '../assets/icons/vander'
 
 export default function Features({title}){
-    const featuresData =[
+    const featuresData = [
         {
-            image:"/images/icons/color-swatches.svg",
-            title:'Grow Your Business',
-            desc:"If the distribution of letters and words is random, the reader will not be distracted from making."
-          },
-          {
-              image:"/images/icons/decent-work-and-economic-growth.svg",
-              title:'Drive More Sales',
-              desc:"If the distribution of letters and words is random, the reader will not be distracted from making."
-            },
-             {
-            image:"/images/icons/flip-horizontal-arrow-1.svg",
-            title:'Handled By Expert',
-            desc:"If the distribution of letters and words is random, the reader will not be distracted from making."
-          }, {
-              image:"/images/icons/layers-1.svg",
-              title:'Discussion For Idea',
-              desc:"If the distribution of letters and words is random, the reader will not be distracted from making."
-            },
-            {
-              image:"/images/icons/pictures-folder-memories.svg",
-              title:'Increase Conversion',
-              desc:"If the distribution of letters and words is random, the reader will not be distracted from making."
-            },
-            {
-              image:"/images/icons/production-belt-time.svg",
-              title:'Sales Growth Idea',
-              desc:"If the distribution of letters and words is random, the reader will not be distracted from making."
-            },
-
-    ]
+          image: "/images/icons/color-swatches.svg",
+          title: "Innovative Design",
+          desc: "Focused on delivering modern and sustainable infrastructure solutions for long-lasting impact."
+        },
+        {
+          image: "/images/icons/decent-work-and-economic-growth.svg",
+          title: "Project Efficiency",
+          desc: "We ensure optimal use of resources to meet deadlines and deliver top-quality results."
+        },
+        {
+          image: "/images/icons/flip-horizontal-arrow-1.svg",
+          title: "Expert Engineering",
+          desc: "Our projects are managed and executed by skilled professionals in the civil engineering field."
+        },
+        {
+          image: "/images/icons/layers-1.svg",
+          title: "Collaborative Planning",
+          desc: "We work closely with stakeholders to develop innovative and practical solutions for every project."
+        },
+        {
+          image: "/images/icons/pictures-folder-memories.svg",
+          title: "Sustainable Development",
+          desc: "We incorporate sustainable practices in every stage of construction, ensuring a better future."
+        },
+        {
+          image: "/images/icons/production-belt-time.svg",
+          title: "Cost-Effective Solutions",
+          desc: "Our approach focuses on reducing costs while maintaining high standards of engineering quality."
+        }
+      ];
+      
     return(
         <>
         <div className="container relative md:mt-24 mt-16">
