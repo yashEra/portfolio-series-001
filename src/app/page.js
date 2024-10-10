@@ -80,25 +80,12 @@ export default function Home() {
     <section className="relative overflow-hidden md:py-24 py-16">
       <About/>
       <Features/>
-      <OurProjects containerClass ="container relative md:mt-24 mt-16" griedClass="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 mt-4 gap-[30px]"/>
-      <Clients/>
-      <Team/>
-      <Blog/>
+      {/* <OurProjects containerClass ="container relative md:mt-24 mt-16" griedClass="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 mt-4 gap-[30px]"/> */}
+      {/* <Clients/> */}
+      {/* <Team/> */}
+      {/* <Blog/> */}
       <GetInTuch/>
     </section>
-    <section className="py-6 border-t border-b border-gray-100 dark:border-gray-700">
-            <div className="container relative">
-                <div className="grid md:grid-cols-6 grid-cols-2 justify-center gap-[30px]">
-                    {businessPartner.map((item,index)=>{
-                        return(
-                            <div className="mx-auto py-4" key={index}>
-                                <Image src={item} width={72} height={24} className="h-6" alt=""/>
-                            </div>
-                        )
-                    })}
-                </div>
-            </div>
-        </section>
         <Footer/>
         <Switcher/>
     </>
