@@ -10,8 +10,8 @@ const poppins = Poppins({
  })
 
 export const metadata = {
-  title: 'Muvico - Next Js Personal & Minimal Portfolio Template',
-  description: 'Muvico - Next Js Personal & Minimal Portfolio Template',
+  title: 'Damsara Rasandun - Civil Engineer',
+  description: 'Damsara Rasandun - Civil Engineer',
 }
 
 export default function RootLayout({ children }) {
