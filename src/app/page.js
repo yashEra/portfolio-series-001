@@ -38,8 +38,6 @@ export default function Home() {
                                 1000,
                                 'Lecture',
                                 1000,
-                                'Content Writer',
-                                1000,
                                 'Mucision',
                                 1000
                             ]}
@@ -50,9 +48,9 @@ export default function Home() {
                             />
                     </h5>
                 
-                    <h5 className="md:text-5xl md:leading-normal text-3xl leading-normal font-bold mt-3">A Full Service <br/> Civil Engineering Firm</h5>
+                    <h5 className="md:text-5xl md:leading-normal text-3xl leading-normal font-bold mt-3">Academic<br/> Civil Engineering</h5>
 
-                    <p className="text-slate-400 dark:text-white/60 text-[17px] max-w-xl mt-4">Test is a Civil Engineering Consultancy & Project Management firm that provides innovative engineering solutions and services, focusing on client success.</p>
+                    <p className="text-slate-400 dark:text-white/60 text-[17px] max-w-xl mt-4">Building the Future: Sustainable Solutions for a Greener Tomorrow in Construction.</p>
 
                     <div className="relative mt-6">
                         <Link href="/aboutus" className="py-2 px-5 inline-flex items-center font-medium tracking-wide border align-middle duration-500 text-[15px] text-center bg-orange-500 hover:bg-orange-600 border-orange-500 hover:border-orange-600 text-white rounded-xl">Explore Work <i className="mdi mdi-arrow-right ms-2"></i></Link>
@@ -64,12 +62,12 @@ export default function Home() {
                         <Image src="/images/hero.png" width={0} height={0} sizes="100vw" style={{width:"100%", height:"auto"}} alt=""/>
 
                         <div className="absolute lg:bottom-20 -bottom-5 md:-start-10 -start-2 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 m-3 w-44 text-center">
-                            <span className="text-3xl font-medium mb-0"><CountUp end={125} className="counter-value font-bold"/>+</span>
-                            <h6 className="text-sm text-slate-400 mt-1">Project Completed</h6>
+                            <span className="text-3xl font-medium mb-0"><CountUp end={5} className="counter-value font-bold"/>+</span>
+                            <h6 className="text-sm text-slate-400 mt-1">Pubilcations</h6>
                         </div>
 
                         <div className="absolute md:top-20 top-32 md:-end-10 -end-2 p-4 rounded-lg shadow-md dark:shadow-gray-800 bg-white dark:bg-slate-900 m-3 w-44 text-center">
-                            <h6 className="font-semibold">Civil Engineer</h6>
+                            <h6 className="font-semibold">Academia </h6>
                             <h6 className="text-sm text-slate-400 mt-1">3+ Years Experience</h6>
                         </div>
                     </div>
