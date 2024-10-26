@@ -10,8 +10,8 @@ const poppins = Poppins({
  })
 
 export const metadata = {
-  title: 'Damsara Rasandun - Civil Engineer',
-  description: 'Damsara Rasandun - Civil Engineer',
+  title: 'Damsara Anthony - Civil Engineer',
+  description: 'Research and Development Specialist in Construction Management and Sustainable Building Solutions',
 }
 
 export default function RootLayout({ children }) {

@@ -1,7 +1,7 @@
 {
-  "name": "damsara",
+  "name": "damsara-anthony",
   "version": "1.0.0",
-  "description": "Damsara Randun - Civil Enginner",
+  "description": "Damsara Anthony - Civil Enginner",
   "private": true,
   "scripts": {
     "dev": "next dev",
