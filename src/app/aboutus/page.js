@@ -240,9 +240,12 @@ export default function AboutUs() {
                       style={{ textAlign: "left" }}
                     >
                       <li className="mt-2 text-left">
-                        Student Member, Institution of Civil Engineers (UK) -
-                        Membership Number 91784892 (2019-2021)
+                        Construction Management
                       </li>
+                      <li className="mt-2 text-left">
+                        Sustainable materials and construction
+                      </li>
+                      <li className="mt-2 text-left">Green buildings</li>
                     </ul>
                   </div>
                 </div>
